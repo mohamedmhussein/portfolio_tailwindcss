@@ -1,9 +1,10 @@
 import { Sora } from 'next/font/google'
 import './globals.css'
-import TopLeftImg from './components/TopLeftImg/TopLeftImg'
-import Nav from './components/Nav/Nav'
-import Header from './components/Header/Header'
+import TopLeftImg from './components/TopLeftImg'
+import Nav from './components/Nav'
+import Header from './components/Header'
 import {AnimatePresence, motion} from 'framer-motion'
+import Transition from './components/Transition'
 
 
 // font settings
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={sora.className}>
         <div className= {`page bg-site text-white bg-cover bg-no-repeat relative ${sora.variable} font-sora`} >
+          <Transition />
           <TopLeftImg />
           <Nav />
           <Header />
