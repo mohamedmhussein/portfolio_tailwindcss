@@ -3,6 +3,7 @@ import './globals.css'
 import TopLeftImg from './components/TopLeftImg/TopLeftImg'
 import Nav from './components/Nav/Nav'
 import Header from './components/Header/Header'
+import {AnimatePresence, motion} from 'framer-motion'
 
 
 // font settings
