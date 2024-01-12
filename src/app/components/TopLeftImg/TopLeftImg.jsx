@@ -1,10 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
 
-//icons
+
 
 
 const TopLeftImg = () => {
+
+
+
   return (
     <div className='absolute top-0 left-0 mix-blend-color-dodge z-10 w-[200px] xl:w-[400px] opacity-50'>
       <Image 
