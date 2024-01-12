@@ -6,4 +6,7 @@
   .page {
     @apply w-full h-screen overflow-hidden
   }
+  body {
+    @apply bg-secondary overflow-hidden leading-relaxed;
+  }
 }

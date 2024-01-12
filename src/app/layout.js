@@ -8,7 +8,7 @@ import Header from './components/Header/Header'
 // font settings
 const sora = Sora({ 
   subsets: ['latin'],
-  variable: '--font-sora',\
+  variable: '--font-sora',
   weight: ['100','200','300','400','500','600','700','800',] })
 
 export const metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={sora.className}>
-        <div className= ` page bg-site text-white bg-cover bg-no-repeat relative ${sora.variable} font-sora ` >
+        <div className= {`page bg-site text-white bg-cover bg-no-repeat relative ${sora.variable} font-sora`} >
           <TopLeftImg />
           <Nav />
           <Header />
