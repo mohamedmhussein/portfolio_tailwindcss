@@ -10,6 +10,9 @@ module.exports = {
       fontFamily: {
         sora: [`var(--font-sora)`, 'sans-serif'],
       },
+      animation: {
+        'spin-slow': 'spin 6s linear infinite',
+      },
       colors: {
         primary: '#131424',
         secondary: '#393A47',
