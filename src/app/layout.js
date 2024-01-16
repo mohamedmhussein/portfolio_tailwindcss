@@ -24,7 +24,7 @@ export default function RootLayout({ children }) {
       <body className={sora.className}>
           <div className= {`page bg-site text-white bg-cover bg-no-repeat relative ${sora.variable} font-sora`} >
             <AnimatePresence mode='wait'>
-              <motion.div className='h-full' key={pathname}>
+              <motion.div className='' key={pathname}>
                 <Transition />
                 <TopLeftImg />
                 <Nav />
