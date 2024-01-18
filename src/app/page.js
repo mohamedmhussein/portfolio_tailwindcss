@@ -8,7 +8,6 @@ import { usePathname } from 'next/navigation'
 import Avatar from '@/components/Avatar'
 export default function Page() {
   const title = '<Software Developer />'
-  const pathname2 = `${usePathname()}2 `
   return (
     
     <div className='bg-primary/60 h-full absolute w-full'>

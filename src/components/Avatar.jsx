@@ -2,7 +2,9 @@ import React from 'react'
 
 const Avatar = () => {
   return (
-    <div>Avatar</div>
+    <div className='hidden xl:flex xl:max-w-none'>
+        
+    </div>
   )
 }
 
