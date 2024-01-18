@@ -1,8 +1,11 @@
+'use client'
+import { usePathname } from 'next/navigation'
 import React from 'react'
 
 const About = () => {
+  const pathname = usePathname()
   return (
-    <div>About</div>
+    <div key={pathname}>About</div>
   )
 }
 
